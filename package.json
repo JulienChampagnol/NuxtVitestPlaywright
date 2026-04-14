@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-vitest-playwright",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "tests": "vitest --config ./tests/vitest.config.js",
+    "tests:unit": "npm run tests --project unit",
+    "tests:e2e": "npm run tests --project e2e"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.11.3",
+    "nuxt": "4.4.2",
+    "pinia": "3.0.4",
+    "vue": "3.5.32",
+    "vue-router": "5.0.4"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "4.0.2",
+    "@pinia/testing": "1.0.3",
+    "@vitejs/plugin-vue": "6.0.6",
+    "@vitest/browser": "4.1.4",
+    "@vitest/browser-playwright": "4.1.4",
+    "@vue/test-utils": "2.4.6",
+    "happy-dom": "20.9.0",
+    "playwright": "1.59.1",
+    "playwright-core": "1.59.1",
+    "vite": "8.0.8",
+    "vitest": "4.1.4"
+  }
+}
